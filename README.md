@@ -1,0 +1,2 @@
+# cv-shindy
+contoh cv
