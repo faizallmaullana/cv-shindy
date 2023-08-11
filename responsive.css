@@ -1,0 +1,62 @@
+@media screen and (max-width: 600px) {
+    .container {
+        margin: 0;
+    }
+    
+    .personal-info {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .profile {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .profile h4 {
+        text-align: center;
+    }
+
+    .profile img {
+        display: none;
+    }
+
+    .foto img {
+        border-radius: 2em 0;
+    }
+
+    .pendidikan  {
+        padding: 1.5em;
+    }
+
+    .data-pendidikan {
+        margin: 0 0 1em 0;
+    }
+
+    .pendidikan .icon {
+        margin: 0 5em 0 0;
+    }
+
+    .pengalaman {
+        padding: 1.5em;
+    }
+
+    .data-pengalaman .icon {
+        display: none;
+    }
+
+    .data-pengalaman h3 {
+        margin: 0 1em 0 0;
+        max-width: 25%;
+    }
+
+    .data-pengalaman .data {
+        max-width: 70%;
+    }
+
+    .kemampuan {
+        padding: 1.5em 1.5em 3em 1.5em;
+        flex-direction: column;
+    }
+}
